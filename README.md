@@ -27,7 +27,17 @@
 
 - Customizing Nvim
   - Installing AstroVim
-    - Follow installation instruction from `https://astronvim.com/`
-  - Getting Up-to-date with my preferences
-    - 
-    
+    > Follow installation instruction from `https://astronvim.com/`
+    - `mv ~/.config/nvim ~/.config/nvim.bak && mv ~/.local/share/nvim ~/.local/share/nvim.bak`
+    - `git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim`
+ 
+  - Getting Up-to-date with my preferences after AstroVim installation
+    - `LspInstall gopls`
+    - `TSInstall go`
+    - `MasonInstall golangci-lint`
+    - `MasonInstall go-debug-adapter`
+    - `MasonUpdate`
+    - `TSInstall lua`
+    - `Lazy check`
+    - `Lazy update`
+
